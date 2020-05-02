@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title>ASUS ROG</title>
+       <meta charset="utf.8"/>
+       <meta name="keywords" content="laptops, desktops, computer, phone"/>
+       <link href="style.css" rel="stylesheet" />
+       <link href="aos.css" rel="stylesheet" />
+       <link href="login.css" rel="stylesheet" />
+       <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      
+</head>
+
+<body>
+    <div id="main4">
+    <header>
+        
+        <style>body{background-color:black;}</style>
+        <nav>
+          <div class="menu" >
+             
+              <div class="logo">
+                  <a href="index.html"><img src="home/logo2.png"></a>
+                  
+                  <div class="login">
+                    <li class="cart">
+                        <a href="cart.html">CART <span>0</span></a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <div class="line"></div>
+                    <li><a href="register.html">REGISTER</a></li>
+                    
+                </div>
+                <ul>
+                    
+                    <li><a href="index.html">
+                        HOME</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">PRODUCTS</a>
+                        <div class="dropdown-content">
+                            
+                            <a href="laptops.html">LAPTOPS</a>
+                            <a href="desktop.html">DESKTOPS</a>
+                            <a href="motherboard.html">MOTHERBOARDS</a>
+                            <a href="graphics card.html">GRAPHICS CARDS</a>
+                            <a href="monitor.html">MONITORS</a>
+                            <a href="phone.html">PHONE</a>
+                            <a href="mouse.html">MICE</a>
+                            <a href="mouse pad.html">MOUSEPADS</a>
+                            <a href="headsets.html">HEADSETS</a>
+                            <a href="keyboard.html">KEYBOARD</a>
+                            <a href="router.html">ROUTERS</a>
+                            <a href="accessories.html">ACCESSORIES</a>
+            
+                        </div>
+                    </li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="support.html">SUPPORT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+        </div>
+        </nav>
+       
+        </header>
+    <div class="chat-box">
+    
+  
+        <button class="open-button" onclick="openform()">Chat</button>
+        
+        <div class="chat-popup" id=myform>
+            <form action="" class="form-container">
+                <h1>Chat ROG</h1>
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message here...." name="msg" required="required"></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeform()">Close</button>
+            </form>
+    
+        </div>
+    </div>
+    <script>
+        function openform(){
+            document.getElementById("myform").style.display="block";
+        }
+        function closeform(){
+            document.getElementById("myform").style.display="none";
+        }
+        
+    </script>
+    </header>
+
+
+     <form action="login.html" class="login-form">
+        <h1>LOGIN</h1>
+        <div class="txtb">
+            <input type="text">
+            <span data-placeholder="Email Address"></span>
+        </div>
+
+        <div class="txtb">
+            <input type="password">
+            <span data-placeholder="Password"></span>
+        </div>
+
+        <input type="submit" class="logbtn" value="login">
+
+        <div class="bottom-text">
+            Don't have account? <a href="register.html">Sign up</a>
+        </div>
+
+     </form>
+ 
+    <script>
+      $(".txtb input").on("focus",function(){
+          $(this).addClass("focus");
+    });
+
+    $(".txtb input").on("blur",function()
+    {
+        if($(this).val() == "")
+         $(this).removeClass("focus");
+    });
+
+    </script>
+
+
+
+
+
+
+<footer>
+    
+    <div class="footer-content"><h2><span>Y</span> <span>O</span><span>U</span> <span>R</span> &nbsp;
+        <span>B</span><span>E</span><span>S</span><span>T</span> &nbsp; 
+        <span>C</span><span>H</span><span>O</span><span>I</span><span>C</span><span>E</span><span>.</span></h2>
+    </div>
+    <div class="footer-content2">
+        <div class="social-media">
+            <ul>     
+                <li>
+                    <a href="https://www.facebook.com/asusrogmalaysia/?brand_redir=1493812764260739">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-facebook" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/ASUS_ROG">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-twitter" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://rog.asus.com/">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-google-plus" aria-hidden="true"></span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.instagram.com/asusrog/">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-instagram" aria-hidden="true"></span>
+                    </a>
+                </li>
+    
+            </ul>
+        </div>
+        <div class="copy-right"><p>©ASUSTeK Computer Inc. All rights reserved.</p></div>
+    
+    
+    
+    </div>
+    
+    
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="laptop.js"></script>
+
+</div>
+</body>

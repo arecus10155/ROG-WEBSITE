@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+.articles-content
+{
+    color: #999999;
+}
+.head
+{
+    position: relative;
+    text-shadow: 0 0 10px #999999,0 0 40px #999999,0 0 80px #999999 ;
+   color: #999999;
+   margin-top: 10%;
+   text-align: center;
+   font-size: 25px;
+}
+.brand, .vision, .mission, .since,.logorog,.rogac
+{
+    text-shadow: 0 0 10px #999999,0 0 40px #999999,0 0 80px #999999 ;
+    position: absolute;
+    left :150px;
+    font-size: 20px;
+    color: #999999;
+
+}
+.articles-content img 
+{
+    padding-left: 9%;
+    
+}
+.brand-text ,.textvision,.textmission,.textsince
+{
+    position: relative;
+    text-align: left;
+    padding-left: 10%;
+    white-space: nowrap;
+    
+}
+.head2,.head3
+{
+    text-shadow: 0 0 10px #999999,0 0 40px #999999,0 0 80px #999999 ;
+    position: relative;
+   color: #999999;
+   margin-top: 7%;
+   text-align: center;
+   font-size: 25px;
+}

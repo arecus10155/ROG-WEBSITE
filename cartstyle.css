@@ -1,0 +1,126 @@
+
+.products-container{
+    max-width:650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+.product-header{
+    width:100%;
+    max-width:650px;
+    display:flex;
+    justify-content: flex-start;
+    border-bottom:4px solid lightgrey;
+    margin: 0 auto; 
+}
+.product-title
+{
+    width:45%;
+}
+.price{
+    width:15%;
+    display: flex;
+    align-items: center;
+    color:white;
+    border-bottom:1px solid lightgrey;
+}
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    color:white;
+    border-bottom:1px solid lightgrey;
+}
+.quantity
+{
+    width:30%;
+    display:flex;
+    align-items: center;
+}
+
+.product-header
+{
+    color:white;
+}
+
+.products img{
+    width:75px;
+}
+
+.products{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+}
+
+.basketTotalContainer
+{
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    padding: 10px 0;
+}
+.basketTotalTitle
+{
+    width:30%;
+}
+.basketTotal{
+    width:10%;
+}
+.checkout
+{
+
+    justify-content: center;
+    color:black;
+    display:flex;
+    background-color:white;
+    padding: 10px 10px;
+    border:none;
+    margin-left:84%;
+    margin-top:2%;
+    font-family:"montserrat";
+    font-size:20px;
+}
+
+.products-container ion-icon
+{
+    font-size: 25px;
+    color:white;
+    margin-left:10px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.quantity{
+    width:30%;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid lightgrey;
+}
+.quantity-product{
+    width:30%;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid lightgrey;
+}
+
+
+.product
+{
+    width:45%;
+    font-size:63%;
+    border-bottom:1px solid lightgrey;
+}
+.product.name
+{
+    width:100%;
+}
+
+#main6{
+    width:1400px;
+    height:1000px;
+    margin-right: auto;
+    margin-left: auto;
+        }
